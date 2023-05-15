@@ -1,0 +1,156 @@
+body{
+    background-color: rgba(114,186,94,255);
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+}
+.conatainer{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    width: 350px;
+    height: 390px;
+}
+h1{
+    text-align: center;
+    color: rgba(73,72,74,255);
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    background-color: rgba(228,232,233,255);
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+}
+button{
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgba(228,232,233,255);
+    border: none;
+    border-radius: 50px;
+    color: rgba(73,72,74,255);
+}
+button:hover{
+    background-color: rgba(114,186,94,255);
+    transition: 0.4s;
+    color: white;
+}
+button:active{
+    color: white;
+}
+h3{
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+    margin-left: 10px;
+    color: rgba(73,72,74,255);
+    font-size: 15px;
+    padding-top: 10px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.online{
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(114,186,94,255);
+    border-radius: 10px;
+}
+p{
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 12px;
+}
+#online{
+    position: relative;
+    margin-top: -5px;
+    right: 45px;
+}
+#jeff{
+    margin-top: 90px;
+}
+#warren{
+    margin-top: 180px;
+}
+#offline{
+    background-color: gray;
+}
+.males{
+    opacity: 0;
+
+}
+
+#females{
+    margin-top: 10px;
+    position: relative;
+    top: -240px;
+}
+.femalesonlineofl{
+    position: relative;
+    top: -305px;
+}
+.females{
+    opacity: 0;
+
+}
+.sal{
+    display: flex;
+    margin-left: 67px;
+    position: relative;
+    top: -415px;
+}
+.angela{
+    position: relative;
+    top: 262px;
+}
+.obama{
+    position: relative;
+    top: 335px;
+}
+.bezos{
+    position: relative;
+    top: 254px;
+}
+.gates{
+    position: relative;
+    top: 335px;
+}
+
+#merkel{
+    position: relative;
+    top: 160px;
+}
+#michelle{
+    position: relative;
+    top: 250px;
+}
+#bufet{
+    position: relative;
+    top: 250px;
+}
+#amazon{
+    position: relative;
+    top: 415px;
+}
+#bill{
+    position: relative;
+    top: 510px;
+}
+.everyonlofl{
+    position: relative;
+    top: -170px;
+}
+.both{
+    opacity: 0;
+    position: relative;
+    top: -470px;
+    margin-left: 2px;
+}
